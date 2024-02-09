@@ -40,7 +40,6 @@
   display: grid;
   padding-top: 20px;
   padding-right: 20px;
-  padding-left: 8px;
   position: relative;
 }
 
@@ -97,11 +96,12 @@
 
 .header__title {
   align-self: center;
-  margin-top: 270px;
+  margin-top: 193px;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-weight: bold;
   color: var(--title-color);
   text-shadow: 4px 4px 0 var(--accent-color);
+  height: fit-content;
 }
 
 .header__paragraph {
@@ -120,7 +120,7 @@
 
 .main {
   padding-right: 20px;
-  padding-left: 8px;
+  padding-left: 20px;
 }
 
 .section__first {
@@ -163,7 +163,6 @@
 
 .section__second {
   margin-block-start: 73px;
-  padding-left: 12px;
 }
 
 .section__container-row {
@@ -295,7 +294,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .main {
     padding: 10px 10px 0 10px;
   }
@@ -369,5 +368,3 @@
     max-width: 100%;
   }
 }
-
-,

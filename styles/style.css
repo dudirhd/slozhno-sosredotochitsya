@@ -41,6 +41,7 @@
   padding-top: 20px;
   padding-right: 20px;
   position: relative;
+  height: 100vh;
 }
 
 .decoration-top {

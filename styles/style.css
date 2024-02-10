@@ -96,8 +96,7 @@
 
 .header__title {
   align-self: center;
-  margin-top: 193px;
-  margin-top: 230px;
+  margin-top: 235px;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-weight: bold;
   color: var(--title-color);
@@ -106,7 +105,7 @@
 }
 
 .header__paragraph {
-  margin-block-start: 114px;
+  margin-block-start: 80px;
   margin-bottom: 134px;
   background-color: var(--accent-color);
   max-width: 491px;

@@ -311,14 +311,14 @@
   }
 
   .footer {
+    margin-block-start: 55px;
     height: 1024px;
   }
 }
 
 @media (max-width: 375px) {
-  .main {
-    margin-block-start: 40px;
-    padding: 0 10px;
+  .header {
+    padding: 10px;
   }
   
   .decorated-zone::before {
@@ -341,8 +341,8 @@
   }
 
   .header__paragraph {
-    margin-block-start: 45px;
-    margin-bottom: 56px;
+    margin-block-start: 35px;
+    margin-bottom: 54px;
   }
 
   .main {
@@ -351,8 +351,13 @@
   }
 
   .section__first {
+    margin-block-start: 40px;
     flex-direction: column;
     gap: 20px;
+  }
+  
+  .section__title {
+    max-width: 355px;
   }
 
   .section__second {
@@ -370,6 +375,7 @@
   }
 
   .section__fourth-img-container {
+    margin-block-start: 10px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas: "sunset"
                           "ice-cream"
@@ -388,5 +394,9 @@
 
   .books {
     max-width: 100%;
+  }
+
+  .footer {
+    height: 668px;
   }
 }

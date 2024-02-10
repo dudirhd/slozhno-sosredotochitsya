@@ -342,11 +342,11 @@
 
   .header__paragraph {
     margin-block-start: 40px;
-    margin-bottom: 54px;
+    margin-bottom: 50px;
   }
 
   .main {
-    margin-block-start: 40px;
+    margin-block-start: 45px;
     padding: 0 10px;
   }
 
@@ -361,18 +361,19 @@
   }
 
   .section__second {
-    margin-block-start: 50px;
+    margin-block-start: 55px;
     padding: 0;
   }
 
   .section__third {
+    margin-block-start: 55px;
     padding: 0;
     flex-direction: column;
     gap: 20px;
   }
 
   .section__fourth {
-    margin-block-start: 50px;
+    margin-block-start: 55px;
     padding: 0;
   }
 

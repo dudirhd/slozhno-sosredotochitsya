@@ -283,12 +283,13 @@
 
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    margin-block-start: 140px;
+    margin-block-start: 150px;
   }
 
   .header__paragraph{
     max-width: 364px;
-    margin-block-start: 130px;
+    margin-block-start: 140px;
+    margin-bottom: 170px;
   }
 
   .section__container-row {

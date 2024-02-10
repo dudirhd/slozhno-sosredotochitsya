@@ -9,7 +9,7 @@
   --backgroung-color: #000028;
   --title-color: #DB00FF;
   --main-text-color: #F1B2CE;
-  --background-img: url(../images/cover-image-dark.png)
+  --background-img: url(../images/cover-image-dark.png);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,7 +18,7 @@
     --backgroung-color: #000028;
     --title-color: #DB00FF;
     --main-text-color: #F1B2CE;
-    --background-img: url(../images/cover-image-dark.png)
+    --background-img: url(../images/cover-image-dark.png);
   }
   
 }

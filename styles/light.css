@@ -52,7 +52,7 @@
   background-attachment: fixed;
 }
 
-.theme_light .decoration-top  {
+.theme_light .decoration-top {
   display: none;
 }
 
@@ -64,7 +64,7 @@
   color: var(--main-text-color);
 }
 
-.theme_light .section__title-paragraph  {
+.theme_light .section__title-paragraph {
   color: var(--main-text-color);
 }
 

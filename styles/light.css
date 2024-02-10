@@ -24,6 +24,18 @@
     }
 }
 
+.theme_light .decorated-zone::before {
+  border: 1px solid var(--main-text-color);
+  border-left: none;
+  border-bottom: none;
+}
+
+.theme_light .decorated-zone::after {
+  border: 1px solid var(--main-text-color);
+  border-right: none;
+  border-top: none;
+}
+
 .theme_light .header__theme-menu-button {
   color: var(--main-text-color);
 }
@@ -42,4 +54,20 @@
 
 .theme_light .decoration-top  {
   display: none;
+}
+
+.theme_light .header__paragraph-text {
+  color: var(--main-text-color);
+}
+
+.theme_light .section__title {
+  color: var(--main-text-color);
+}
+
+.theme_light .section__title-paragraph  {
+  color: var(--main-text-color);
+}
+
+.theme_light .section__title-paragraph-regular {
+  color: var(--main-text-color);
 }

@@ -286,8 +286,9 @@
     margin-block-start: 140px;
   }
 
-  .header__paragraph-text {
+  .header__paragraph{
     max-width: 364px;
+    margin-block-start: 130px;
   }
 
   .section__container-row {

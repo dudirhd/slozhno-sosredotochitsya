@@ -351,7 +351,7 @@
   }
 
   .section__first {
-    margin-block-start: 35px;
+    margin-block-start: 30px;
     flex-direction: column;
     gap: 20px;
   }
@@ -361,12 +361,12 @@
   }
 
   .section__second {
-    margin-block-start: 55px;
+    margin-block-start: 50px;
     padding: 0;
   }
 
   .section__third {
-    margin-block-start: 45px;
+    margin-block-start: 40px;
     padding: 0;
     flex-direction: column;
     gap: 20px;
@@ -379,6 +379,7 @@
 
   .section__fourth-img-container {
     margin-block-start: 10px;
+    grid-gap: 10px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas: "sunset"
                           "ice-cream"

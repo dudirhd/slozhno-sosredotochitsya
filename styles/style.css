@@ -124,7 +124,7 @@
 }
 
 .section__first {
-  margin-block-start: 62px;
+  margin-block-start: 60px;
   display: flex;
 }
 
@@ -282,7 +282,12 @@
   }
 
   .header__title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    margin-block-start: 140px;
+  }
+
+  .header__paragraph-text {
+    max-width: 364px;
   }
 
   .section__container-row {

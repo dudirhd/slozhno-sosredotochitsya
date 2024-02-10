@@ -305,6 +305,14 @@
   .section__paragraph-container-row {
     max-width: none;
   }
+
+  .section__second {
+    margin-block-start: 80px;
+  }
+
+  .footer {
+    height: 1024px;
+  }
 }
 
 @media (max-width: 375px) {

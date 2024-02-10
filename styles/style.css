@@ -341,7 +341,7 @@
   }
 
   .header__paragraph {
-    margin-block-start: 35px;
+    margin-block-start: 40px;
     margin-bottom: 54px;
   }
 
@@ -351,7 +351,7 @@
   }
 
   .section__first {
-    margin-block-start: 40px;
+    margin-block-start: 35px;
     flex-direction: column;
     gap: 20px;
   }
@@ -361,6 +361,7 @@
   }
 
   .section__second {
+    margin-block-start: 50px;
     padding: 0;
   }
 
@@ -371,6 +372,7 @@
   }
 
   .section__fourth {
+    margin-block-start: 50px;
     padding: 0;
   }
 

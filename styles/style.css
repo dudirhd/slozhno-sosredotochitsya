@@ -41,7 +41,6 @@
   grid-template-rows: 1fr min-content 1fr;
   padding-top: 20px;
   padding-right: 20px;
-  padding-left: 20px;
   position: relative;
   height: 100vh;
   min-height: 668px;
@@ -75,6 +74,7 @@
 
 .header__theme-menu {
   justify-self: center;
+  padding-left: 24px;
 }
 
 .header__theme-menu-list {
@@ -112,6 +112,7 @@
   color: var(--title-color);
   text-shadow: 4px 4px 0 var(--shadow-color);
   line-height: 82.5%;
+  padding-bottom: 20px;
 }
 
 .header__paragraph {
@@ -120,7 +121,7 @@
   font-weight: bold;
   margin-left: auto;
   font-size: 18px;
-  padding-bottom: 32px;
+  padding-bottom: 40px;
 }
 
 .header__paragraph-text {

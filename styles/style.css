@@ -48,7 +48,7 @@
 
 .decoration-top {
   position: absolute;
-  top: 22px;
+  top: 21px;
   right: 28px;
   display: inline-flex;
   align-items: center;
@@ -68,6 +68,8 @@
 .recording {
   text-transform: uppercase;
   color: var(--accent-color);
+  line-height: 25px;
+  font-size: 18px;
 }
 
 .header__theme-menu {
@@ -76,7 +78,7 @@
 
 .header__theme-menu-list {
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 .header__theme-menu-button {
@@ -85,7 +87,7 @@
   color: var(--button-color);
   font-size: 18px;
   text-transform: lowercase;
-  padding: 1px 13px;
+  padding: 0px 13px 1px 13px;
   cursor: pointer;
 }
 
@@ -108,21 +110,22 @@
   font-weight: bold;
   color: var(--title-color);
   text-shadow: 4px 4px 0 var(--shadow-color);
-  height: fit-content;
+  line-height: 82.5%;
+  padding-top: 50px;
 }
 
 .header__paragraph {
   align-self: center;
-  background-color: var(--accent-color);
   max-width: 491px;
-  max-height: 71px;
   font-weight: bold;
   margin-left: auto;
   font-size: 18px;
+  padding-bottom: 55px;
 }
 
 .header__paragraph-text {
   color: var(--section-paragraph-title-color);
+  background-color: var(--accent-color);
 }
 
 .main {
@@ -263,6 +266,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  min-height: 668px;
   margin-block-start: 65px;
   position: relative;
 }
@@ -291,7 +295,6 @@
 
   .header__paragraph {
     max-width: 364px;
-    max-height: 117px;
   }
 
   .section__title {

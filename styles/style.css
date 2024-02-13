@@ -280,6 +280,10 @@
 }
 
 @media (max-width: 768px) {
+  .header {
+    padding-left: 0;
+  }
+  
   .header__theme-menu {
     justify-self: flex-end;
     align-self: center;
@@ -320,6 +324,37 @@
     margin-block-start: 80px;
   }
 
+  .ice-cream {
+    grid-area: ice-cream;
+    max-height: 441px;
+    max-width: 229px;
+  }
+  
+  .books {
+    grid-area: books;
+    max-width: 230px;
+    max-height: 230px;
+  }
+  
+  .street {
+    grid-area: street;
+    max-height: 318px;
+    max-width: 479px;
+  }
+  
+  .sunset {
+    grid-area: sunset;
+    max-width: 479px;
+    max-height: 192px;
+  }
+  
+  .tape {
+    grid-area: tape;
+    max-height: 568px;
+    max-width: 229px;
+  }
+
+
   .footer {
     margin-block-start: 55px;
     min-height: 1024px;
@@ -327,6 +362,21 @@
 }
 
 @media (max-width: 375px) {
+  .decoration-top {
+    top: 10px;
+    right: 20px;
+  }
+
+  .decoration-top::after {
+    content: '';
+    width: .6em;
+    height: .6em;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+    margin-left: 10px;
+    box-shadow: 0px 0px 4px 2px var(--accent-color);
+  }
+
   .header {
     padding: 10px;
   }
@@ -341,8 +391,18 @@
     left: 10px;
   }
 
+  .header__theme-menu {
+    padding-right: 5px;
+    padding-top: 20px;
+  }
+
   .header__title {
-    line-height: 87.5%;
+    line-height: 82.5%;
+    padding-top: 20px;
+  }
+
+  .header__paragraph {
+    padding-bottom: 25px;
   }
 
   .main {
@@ -366,7 +426,7 @@
   }
 
   .section__how {
-    margin-block-start: 45px;
+    margin-block-start: 47px;
     padding: 0;
     flex-direction: column;
     gap: 20px;
@@ -403,7 +463,7 @@
   }
 
   .footer {
-    margin-block-start: 45px;
+    margin-block-start: 30px;
     min-height: 668px;
   }
 }

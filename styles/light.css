@@ -34,6 +34,18 @@
     .decoration-top {
       display: none;
     }
+
+    .header__theme-menu-button_type_light {
+      outline: 1px solid var(--button-color);
+    }
+
+    .header__theme-menu-button_type_dark {
+      outline: none;
+    }
+
+    .header__theme-menu-button_type_auto {
+      outline: none;
+    }
 }
 
 .theme_light .decoration-top {

@@ -41,6 +41,7 @@
   grid-template-rows: 1fr min-content 1fr;
   padding-top: 20px;
   padding-right: 20px;
+  padding-left: 20px;
   position: relative;
   height: 100vh;
   min-height: 668px;
@@ -111,7 +112,6 @@
   color: var(--title-color);
   text-shadow: 4px 4px 0 var(--shadow-color);
   line-height: 82.5%;
-  padding-top: 50px;
 }
 
 .header__paragraph {
@@ -120,7 +120,7 @@
   font-weight: bold;
   margin-left: auto;
   font-size: 18px;
-  padding-bottom: 55px;
+  padding-bottom: 32px;
 }
 
 .header__paragraph-text {
@@ -172,7 +172,7 @@
 }
 
 .section__what {
-  margin-block-start: 75px;
+  margin-block-start: 80px;
 }
 
 .section__container-row {

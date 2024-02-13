@@ -78,7 +78,7 @@
 
 .header__theme-menu-list {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
 .header__theme-menu-button {
@@ -172,7 +172,7 @@
 }
 
 .section__what {
-  margin-block-start: 73px;
+  margin-block-start: 75px;
 }
 
 .section__container-row {

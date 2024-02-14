@@ -4,7 +4,7 @@
   переключая тему
 */
 
-:root {
+:root .page.theme_dark {
   --accent-color: #FF0070;
   --backgroung-color: #000028;
   --title-color: #DB00FF;
@@ -29,8 +29,28 @@
     --section-title-color: #FF0070;
     --section-paragraph-title-color: #000028;
     --border-hover: rgba(255, 0, 112, 0.4);
+
+  }
+
+  .decoration-top {
+    display: inline-flex;
   }
   
+  /* .header__theme-menu-button_type_light {
+    outline: none;
+  }
+
+  .header__theme-menu-button_type_dark {
+    outline: 1px solid var(--button-color)
+  }
+
+  .header__theme-menu-button_type_auto {
+    outline: none;
+  } */
+}
+
+.theme_dark .decoration-top {
+  display: inline-flex;
 }
 
 .page.theme_dark {

@@ -94,6 +94,7 @@
 
 .header__theme-menu-button_active {
   outline: 1px solid var(--button-color);
+  pointer-events: none;
 }
 
 .header__theme-menu-button:hover {
